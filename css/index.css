@@ -1,0 +1,36 @@
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+    color:black;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: end;
+    color:black;
+}
+
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(241, 241, 241);
+    width: 390px;
+    height: 330px;
+    margin: 50px auto;
+}
+
+
+hr,h4 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    background-color: rgba(236, 230, 230, 0.753);
+    padding: 10px;
+  }
+
+  .center-image {
+    text-align: center;
+    
+}

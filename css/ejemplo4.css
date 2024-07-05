@@ -1,0 +1,9 @@
+
+.hsl-color {
+    background-color: hsl(157, 100%, 50%);
+    /* Verde brillante */
+    color: hsla(0, 100%, 50%, 0.7);
+    /* Rojo semi-transparente */
+    padding: 10px;
+    transition: 1s;
+}

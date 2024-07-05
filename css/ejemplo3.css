@@ -1,0 +1,9 @@
+.hex-color {
+    background-color: #4CAF50;
+    /* Color verde */
+    color: #FFFFFF;
+    /* Texto blanco */
+    padding: 10px;
+    border:2px solid #1235a1;
+}
+

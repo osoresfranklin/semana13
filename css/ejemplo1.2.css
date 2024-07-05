@@ -1,0 +1,16 @@
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            opacity: 1;
+            /* Opacidad inicial al 100% */
+            transition: opacity 0.3s ease;
+            /* Transición suave */
+        }
+
+        .box:hover {
+            opacity: 0.8;
+            /* Opacidad al 50% al hacer hover */
+        }
+    

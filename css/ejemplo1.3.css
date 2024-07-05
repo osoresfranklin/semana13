@@ -1,0 +1,37 @@
+
+        .container {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjcDP9O_c8v50jLYGZn4cNW2v-KWw8sKFKFg&s') center/cover;
+            transition: 3s;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Fondo semi-transparente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text {
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            opacity: 0.8;
+            /* Opacidad al 80% */
+        }
+        .overlay:hover{
+            background-color:rgb(0,0,0.0.2);
+            /*fondo semi transparente*/
+        }
+        .container:hover {
+            opacity:0.8;
+        }
+  
